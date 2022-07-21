@@ -27,6 +27,8 @@ public class TestCases //extends Login
 	{
 		System.out.println("Test Case : BookBusTicketAndCancel");
 		//Steps : launch , login , bookTicket , print , logout , close
+		login.launchApplication();
+		login.loginToApplication();
 	}
 	
 	@Test
